@@ -1,5 +1,5 @@
 // You are using Java
-import java.util.*;
+import java.util.Scanner;
 
 class hmm
 {
@@ -28,5 +28,6 @@ class hmm
 
             for(;k>=0;k--) System.out.println(final_arr[k]+" ");
         }
+        sc.close();
     }
 }
