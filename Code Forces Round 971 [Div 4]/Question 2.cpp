@@ -28,5 +28,11 @@ int main()
         for (; k > 0;)
             cout << final_arr[--k] + 1 << " ";
         cout << "\n";
+
+        for (int i = 0; i < n; i++)
+            delete arr[i];
+        delete arr;
+
+        delete final_arr;
     }
 }

@@ -26,7 +26,8 @@ class hmm
                 }
             }
 
-            for(;k>=0;k--) System.out.println(final_arr[k]+" ");
+            for(;k>0;) System.out.print((final_arr[--k]+1)+" ");
+            System.out.println("");
         }
         sc.close();
     }
